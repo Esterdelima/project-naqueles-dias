@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('/src/assents/image/inicial.svg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer; /* Muda o cursor para indicar que é clicável */
+        }
+
+        /* Adicione estilos adicionais conforme necessário */
+    </style>
+</head>
+
+<body onclick="redirectToLogin()">
+    <script>
+        function redirectToLogin() {
+            window.location.href = '/login'; // Redireciona para a rota '/login'
+        }
+    </script>
+</body>
+
+</html>
