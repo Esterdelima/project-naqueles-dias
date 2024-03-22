@@ -68,7 +68,11 @@ const Login = () => {
               Esqueci minha senha
             </ForgotPasswordButton>
           </div>
+
+          <Link to='/home'>
           <Register variant="contained" onClick={handleLogin}/> {/* Use o componente Register aqui */}
+          </Link>
+          
           <Link to="/cadastro">
             <CreateAccountButton>
               Criar conta
